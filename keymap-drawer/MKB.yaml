@@ -119,11 +119,11 @@ layers:
   - A
   - B
   Num:
-  - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
+  - MINUS
+  - '7'
+  - '8'
+  - '9'
+  - PLUS
   - '5'
   - '6'
   - '7'
@@ -131,24 +131,24 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SLASH
+  - '4'
+  - '5'
+  - '6'
+  - ASTERISK
+  - Ctl+Alt+0
   - MINUS
   - EQUAL
   - LBKT
   - RBKT
   - BSLH
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '0', h: LSHFT}
+  - '1'
+  - '2'
+  - '3'
+  - PERIOD
+  - EQUAL
   - {t: ▽, type: trans}
   - FSLH
   - SEMI
@@ -156,10 +156,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
+  - '0'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
