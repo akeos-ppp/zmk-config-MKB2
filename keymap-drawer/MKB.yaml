@@ -413,3 +413,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [24, 25]
+  k: Alt+Ctl+D
+- p: [25, 26]
+  k: Ctl+Alt+F
+- p: [26, 27]
+  k: Alt+Ctl+G
+- p: [27, 28]
+  k: Alt+Ctl+RET
