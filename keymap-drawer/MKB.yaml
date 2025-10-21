@@ -66,7 +66,7 @@ layers:
   - PG DN
   - HOME
   - {t: ▽, type: trans}
-  - F1
+  - LCTRL
   - F2
   - F3
   - F4
@@ -78,7 +78,7 @@ layers:
   - RIGHT
   - END
   - {t: ▽, type: trans}
-  - F6
+  - '!'
   - F7
   - F8
   - F9
