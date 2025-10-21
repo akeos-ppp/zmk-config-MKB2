@@ -79,7 +79,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - '!'
-  - F7
+  - AT SIGN
   - F8
   - F9
   - F10
