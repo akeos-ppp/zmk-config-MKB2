@@ -126,23 +126,23 @@ layers:
   - PLUS
   - '5'
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
+  - SINGLE QUOTE
+  - AMPERSAND
+  - TILDE
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - SLASH
   - '4'
   - '5'
   - '6'
   - ASTERISK
   - Ctl+Alt+0
-  - MINUS
-  - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
+  - UNDERSCORE
+  - '!'
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
   - {t: '0', h: LSHFT}
   - '1'
   - '2'
@@ -150,21 +150,21 @@ layers:
   - PERIOD
   - EQUAL
   - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - LEFT BRACE
+  - RIGHT BRACE
+  - NON US BACKSLASH
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PIPE
   - LEFT
   - UP
   - SPACE
