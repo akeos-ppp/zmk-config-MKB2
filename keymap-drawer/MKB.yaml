@@ -124,8 +124,8 @@ layers:
   - '8'
   - '9'
   - PLUS
-  - '5'
-  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - SINGLE QUOTE
   - AMPERSAND
   - TILDE
