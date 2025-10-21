@@ -21,6 +21,29 @@
 };
 
 / {
+    macros {
+        mission: mission {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(UP_ARROW)>;
+            label = "MISSION";
+        };
+
+        launchpad: launchpad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "LAUNCHPAD";
+        };
+
+        cap: cap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(N5))>;
+            label = "CAP";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,11 +92,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &mkp MB1   &mkp MB3   &mkp MB2   &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans      &trans     &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3    &mkp MB3   &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mission  &launchpad  &trans     &trans     &trans
+&trans    &trans  &trans               &trans     &trans      &trans  &trans                &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP   &kp ENTER  &kp PG_DN  &kp END
                              &kp A                                              &kp B
             >;
 
