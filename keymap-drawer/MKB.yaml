@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - J
-  - K
+  - {t: K, h: Scr}
   - L
   - SEMI
   - LEFT PARENTHESIS
