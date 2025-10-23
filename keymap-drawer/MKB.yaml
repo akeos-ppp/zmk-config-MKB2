@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MINUS
+  - SEMICOLON
   - TAB
   - A
   - S
@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - SEMI
+  - MINUS
   - LEFT PARENTHESIS
   - LSHFT
   - Z
