@@ -66,6 +66,16 @@
             bindings = <&kp LA(LC(RET))>;
             key-positions = <27 28>;
         };
+
+        left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <15 16>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
