@@ -119,19 +119,19 @@ layers:
   - A
   - B
   Num:
-  - MINUS
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - '7'
   - '8'
   - '9'
-  - PLUS
+  - '0'
+  - SQT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SINGLE QUOTE
-  - AMPERSAND
-  - TILDE
-  - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
-  - SLASH
   - '4'
   - '5'
   - '6'
@@ -143,7 +143,7 @@ layers:
   - HASH
   - DOLLAR
   - PERCENT
-  - {t: '0', h: LSHFT}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
