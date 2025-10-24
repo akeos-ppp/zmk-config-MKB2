@@ -49,12 +49,12 @@ layers:
   - BACKSLASH
   - LEFT
   - UP
-  - SPACE
+  - '&mkp RCLK'
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - '&mkp LCLK'
   - PG DN
   - END
   - A
