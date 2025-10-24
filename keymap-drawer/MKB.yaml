@@ -132,11 +132,11 @@ layers:
   - '0'
   - SQT
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - ASTERISK
-  - Ctl+Alt+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - UNDERSCORE
   - '!'
   - AT SIGN
@@ -144,11 +144,11 @@ layers:
   - DOLLAR
   - PERCENT
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - PERIOD
-  - EQUAL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT BRACKET
   - RIGHT BRACKET
@@ -156,7 +156,7 @@ layers:
   - RIGHT BRACE
   - NON US BACKSLASH
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
