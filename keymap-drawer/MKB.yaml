@@ -422,3 +422,7 @@ combos:
   k: Alt+Ctl+G
 - p: [27, 28]
   k: Alt+Ctl+RET
+- p: [15, 16]
+  k: LEFT PARENTHESIS
+- p: [16, 17]
+  k: RIGHT PARENTHESIS

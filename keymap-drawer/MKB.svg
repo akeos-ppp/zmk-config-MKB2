@@ -420,6 +420,18 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
 </text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 322)" class="layer-Fnc">
@@ -689,6 +701,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
 <text x="224" y="140" class="combo tap">
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
 </text>
 </g>
 </g>
@@ -977,6 +1001,18 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
 </text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 966)" class="layer-Mouse">
@@ -1245,6 +1281,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
 <text x="224" y="140" class="combo tap">
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
 </text>
 </g>
 </g>
@@ -1516,6 +1564,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
 <text x="224" y="140" class="combo tap">
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
 </text>
 </g>
 </g>
@@ -1797,6 +1857,18 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
 </text>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1932)" class="layer-6">
@@ -2056,6 +2128,18 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
 <text x="224" y="140" class="combo tap">
 <tspan x="224" dy="-0.6em">Alt+Ctl</tspan><tspan x="224" dy="1.2em">+RET</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="71" width="28" height="26" class="combo"/>
+<text x="224" y="84" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 64%">LEFT</tspan><tspan x="224" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="71" width="28" height="26" class="combo"/>
+<text x="280" y="84" class="combo tap">
+<tspan x="280" dy="-0.6em" style="font-size: 64%">RIGHT</tspan><tspan x="280" dy="1.2em" style="font-size: 64%">PARENTHESIS</tspan>
 </text>
 </g>
 </g>
