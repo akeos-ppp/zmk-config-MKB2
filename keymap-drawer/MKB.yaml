@@ -209,8 +209,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mission'
-  - '&launchpad'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -426,3 +426,7 @@ combos:
   k: LEFT PARENTHESIS
 - p: [16, 17]
   k: RIGHT PARENTHESIS
+- p: [19, 20]
+  k: '&mission'
+- p: [20, 21]
+  k: '&launchpad'
