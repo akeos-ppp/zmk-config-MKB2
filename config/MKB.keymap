@@ -76,6 +76,16 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <16 17>;
         };
+
+        mission {
+            bindings = <&mission>;
+            key-positions = <19 20>;
+        };
+
+        lunch {
+            bindings = <&launchpad>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
@@ -126,11 +136,11 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans      &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mo 1       &mkp MB2   &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mission  &launchpad  &trans     &trans     &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans                &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP   &kp ENTER  &kp PG_DN  &kp END
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mo 1      &mkp MB2   &trans     &trans
+&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                              &kp A                                              &kp B
             >;
 
