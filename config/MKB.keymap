@@ -98,7 +98,7 @@
 &kp TAB     &kp A         &kp S                   &kp D     &kp F          &kp G                   &kp H                       &kp J          &kp K      &kp L             &kp MINUS  &kp LEFT_PARENTHESIS
 &kp LSHFT   &kp Z         &kp X                   &kp C     &kp V          &kp B                   &kp N                       &kp M          &kp COMMA  &kp DOT           &kp SLASH  &kp RIGHT_PARENTHESIS
 &kp LCTRL   &kp LEFT_ALT  &mt LEFT_GUI LA(SPACE)            &lt NUM SPACE  &lt FUNC BACKSPACE      &mt RIGHT_COMMAND CAPSLOCK  &lt NUM ENTER             &kp SINGLE_QUOTE  &kp EQUAL  &kp BACKSLASH
-&kp LEFT    &kp UP        &mkp RCLK               &kp DOWN  &kp RIGHT                                                          &kp HOME       &kp PG_UP  &mkp LCLK         &kp PG_DN  &kp END
+&kp LEFT    &kp UP        &mkp RCLK               &kp DOWN  &kp RIGHT                                                          &mission       &kp PG_UP  &mkp LCLK         &kp PG_DN  &launchpad
                                                   &kp A                                                                                       &kp B
             >;
 
