@@ -52,11 +52,11 @@ layers:
   - '&mkp RCLK'
   - DOWN
   - RIGHT
-  - HOME
+  - '&mission'
   - PG UP
   - '&mkp LCLK'
   - PG DN
-  - END
+  - '&launchpad'
   - A
   - B
   Fnc:
