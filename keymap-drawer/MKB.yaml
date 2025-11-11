@@ -52,11 +52,11 @@ layers:
   - '&mkp RCLK'
   - DOWN
   - RIGHT
-  - '&mission'
+  - '&launchpad'
   - PG UP
   - '&mkp LCLK'
   - PG DN
-  - '&launchpad'
+  - '&mission'
   - A
   - B
   Fnc:
@@ -210,7 +210,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mission'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
