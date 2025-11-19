@@ -20,16 +20,16 @@ manifest:
       url-base: https://github.com/kumamuk-git
   projects:
     - name: zmk
-      remote: zmkfirmware
-      #remote: te9no
+      #remote: zmkfirmware
+      remote: te9no
       revision: main
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
     - name: zmk-pmw3610-driver
-      #remote: badjeff
-      remote: kumamuk-git
+      remote: badjeff
+      #remote: kumamuk-git
       revision: main
     - name: zmk-analog-input-driver
       remote: badjeff
@@ -55,5 +55,6 @@ manifest:
       path: modules/prospector-zmk-module
   self:
     path: config
+
 
 
