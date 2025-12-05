@@ -26,7 +26,7 @@
 &mkp_input_listener {
     /* <&zip_temp_layer レイヤー番号 タイムアウト(ms)> */
     input-processors = <&zip_temp_layer MOUSE 250>;
-}
+};
 
 / {
     macros {
@@ -184,5 +184,6 @@
         };
     };
 };
+
 
 
