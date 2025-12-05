@@ -50,7 +50,7 @@
 /* zip_temp_layer の既存定義を上書きして使う */
 &zip_temp_layer {
     /* キー入力から 200ms 以内は AML を発動しない（誤爆防止） */
-    require-prior-idle-ms = <200>;
+    require-prior-idle-ms = <400>;
 
     /* AML 中に押してもレイヤー解除「しない」キー
      * ; / J / K / Left Shift / Left Ctrl
@@ -95,3 +95,4 @@
         input-processors = <&zip_temp_layer 3 250>;
     };
 };
+
