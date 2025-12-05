@@ -1,8 +1,8 @@
 #include <input/processors.dtsi>
 
-/* ===================== SPI1 pin config ===================== */
+/* ===================== SPI pin config ===================== */
 &pinctrl {
-    spi1_default: spi1_default {
+    spi0_default: spi0_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK,  1, 13)>,
                     <NRF_PSEL(SPIM_MOSI, 0, 4)>,
@@ -10,7 +10,7 @@
         };
     };
 
-    spi1_sleep: spi1_sleep {
+    spi0_sleep: spi0_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK,  1, 13)>,
                     <NRF_PSEL(SPIM_MOSI, 0, 4)>,
@@ -20,12 +20,12 @@
     };
 };
 
-/* ===================== PMW3610 trackball on SPI1 ===================== */
-&spi1 {
+/* ===================== PMW3610 trackball ===================== */
+&spi0 {
     status = "okay";
     cs-gpios =  <&xiao_d 7 GPIO_ACTIVE_LOW>;
-    pinctrl-0 = <&spi1_default>;
-    pinctrl-1 = <&spi1_sleep>;
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     compatible = "nordic,nrf-spim";
 
@@ -40,16 +40,26 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         force-awake;
+
+        /* ★ automouse-layer は使わない（Input Processor 側で制御） */
+        /* automouse-layer = <3>;  ← もし残っていたら消す */
     };
 };
 
 /* ===================== AML 動作パラメータ ===================== */
+/* zip_temp_layer の既存定義を上書きして使う */
 &zip_temp_layer {
-    /* キー入力から 400ms 以内は AML を発動しない（誤爆防止を少し強める） */
+    /* キー入力から 200ms 以内は AML を発動しない（誤爆防止） */
     require-prior-idle-ms = <400>;
 
-    /* AML 中に押してもレイヤー解除しないキー
+    /* AML 中に押してもレイヤー解除「しない」キー
      * ; / J / K / Left Shift / Left Ctrl
+     * それぞれの position:
+     *   ;          = 11
+     *   J          = 19
+     *   K          = 20
+     *   LSHFT      = 24
+     *   LCTRL      = 36
      */
     excluded-positions = <
         11  /* ; */
@@ -82,6 +92,6 @@
 
         /* <&zip_temp_layer レイヤー番号 タイムアウト(ms)> */
         /* MOUSE = 3 を 10 秒間オンにする AML */
-        input-processors = <&zip_temp_layer 3 10000>;
+        input-processors = <&zip_temp_layer 3 250>;
     };
 };
