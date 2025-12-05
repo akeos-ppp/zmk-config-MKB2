@@ -1,3 +1,6 @@
+#include <input/processors.dtsi>
+
+/* ===================== SPI pin config ===================== */
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -17,7 +20,7 @@
     };
 };
 
-
+/* ===================== PMW3610 trackball ===================== */
 &spi0 {
     status = "okay";
     cs-gpios =  <&xiao_d 7 GPIO_ACTIVE_LOW>;
@@ -37,11 +40,39 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         force-awake;
+
+        /* ★ automouse-layer は使わない（Input Processor 側で制御） */
+        /* automouse-layer = <3>;  ← もし残っていたら消す */
     };
 };
 
+/* ===================== AML 動作パラメータ ===================== */
+/* zip_temp_layer の既存定義を上書きして使う */
+&zip_temp_layer {
+    /* キー入力から 200ms 以内は AML を発動しない（誤爆防止） */
+    require-prior-idle-ms = <200>;
+
+    /* AML 中に押してもレイヤー解除「しない」キー
+     * ; / J / K / Left Shift / Left Ctrl
+     * それぞれの position:
+     *   ;          = 11
+     *   J          = 19
+     *   K          = 20
+     *   LSHFT      = 24
+     *   LCTRL      = 36
+     */
+    excluded-positions = <
+        11  /* ; */
+        19  /* J */
+        20  /* K */
+        24  /* Left Shift */
+        36  /* Left Ctrl */
+    >;
+};
+
+/* ===================== input-split + listener ===================== */
 /*input-split*/
-/ {
+ / {
     split_inputs {
         #address-cells = <1>;
         #size-cells = <0>;
@@ -58,5 +89,9 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+
+        /* <&zip_temp_layer レイヤー番号 タイムアウト(ms)> */
+        /* MOUSE = 3 を 10 秒間オンにする AML */
+        input-processors = <&zip_temp_layer 3 250>;
     };
 };
