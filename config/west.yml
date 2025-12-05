@@ -16,8 +16,6 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: prospector
       url-base: https://github.com/t-ogura
-    - name: kumamuk-git
-      url-base: https://github.com/kumamuk-git
   projects:
     - name: zmk
       #remote: zmkfirmware
@@ -55,6 +53,7 @@ manifest:
       path: modules/prospector-zmk-module
   self:
     path: config
+
 
 
 
