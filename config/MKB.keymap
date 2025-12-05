@@ -20,6 +20,12 @@
     require-prior-idle-ms = <150>;
 };
 
+/* ★ マウスキー（&mkp）用リスナに AML を紐づける */
+&mkp_input_listener {
+    /* <&zip_temp_layer レイヤー番号 タイムアウト(ms)> */
+    input-processors = <&zip_temp_layer MOUSE 250>;
+}
+
 / {
     macros {
         mission: mission {
@@ -176,3 +182,4 @@
         };
     };
 };
+
